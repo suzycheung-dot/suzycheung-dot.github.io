@@ -1,4 +1,4 @@
-# Wild Life Habitat Echo Village
+# Wild Life Habitat Eco Village
 
 A website for the eco-friendly ranch in Hilo, Hawaiʻi — inspiring people worldwide to protect Mother Nature.
 
