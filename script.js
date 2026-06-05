@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll(
     '.value-card, .animal-card, .eco-card, .mission-image-wrap, ' +
-    '.ranch-feature, .architecture-feature, .stay-grid, .mao-grid, .gallery-grid img, .contact-card'
+    '.ranch-feature, .architecture-feature, .stay-grid, .mau-grid, .gallery-grid img, .contact-card'
   ).forEach(el => {
     el.classList.add('fade-in');
     observer.observe(el);

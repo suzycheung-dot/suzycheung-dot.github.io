@@ -49,11 +49,11 @@ Replace the placeholder images by saving your photos with these exact filenames:
 | `exterior.jpg` | Guest house exterior |
 | `interior.jpg` | Guest house interior |
 
-### Mao (`images/mao/`)
+### Mau (`images/mau/`)
 
 | Filename | Description |
 |----------|-------------|
-| `portrait.jpg` | Portrait of Mao |
+| `portrait.jpg` | Portrait of Mau |
 | `boat.jpg` | The 30-foot self-built boat |
 
 ### Gallery (`images/gallery/`)
