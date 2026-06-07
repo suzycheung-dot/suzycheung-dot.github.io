@@ -1,9 +1,8 @@
 # Image Checklist — Wild Life Habitat Eco Village
 
-Reference for all photos used on the website. Save each file with the **exact filename** shown below and place it in the matching folder.
+Reference for all photos used on the website. Save each file with the **exact filename** shown below.
 
-**Format:** `.jpg` or `.webp`  
-**Tips:** 1600–2400px wide for large banners; 800–1200px for cards. Keep files under ~500 KB when possible.
+**Format:** `.jpg` or `.webp`
 
 ---
 
@@ -11,110 +10,100 @@ Reference for all photos used on the website. Save each file with the **exact fi
 
 | Status | Count |
 |--------|------:|
-| Uploaded | 4 |
-| Still needed | 16 |
-| **Total required** | **20** |
+| Uploaded | 34 |
+| Still needed | 2 (hidden on site) |
+| **Total** | **36** |
 
 ---
 
 ## Main (`images/`)
 
-| File | Website section | What to photograph | Status |
-|------|-----------------|-------------------|--------|
-| `hero.jpg` | Hero banner (top of page) | Wide panoramic shot of the ranch or landscape | ✅ Uploaded |
-| `mission.jpg` | Mission section | Lush Hawaiian scenery at Eco Village | ⬜ Needed |
-| `ranch-overview.jpg` | The Ranch section | Full overview of the ranch and homestead | ⬜ Needed |
+| File | Section | Status |
+|------|---------|--------|
+| `hero.jpg` | Hero banner | ✅ |
+| `mission.jpg` | Mission (rainbow over ranch) | ✅ |
+| `ranch-overview.jpg` | The Ranch overview | ✅ |
 
 ---
 
 ## Animals (`images/animals/`)
 
-| File | Website section | What to photograph | Status |
-|------|-----------------|-------------------|--------|
-| `cows.jpg` | The Ranch — Cows | Cows grazing on the ranch | ⬜ Needed |
-| `sheep.jpg` | The Ranch — Sheep | Sheep on the hills | ⬜ Needed |
-| `chickens.jpg` | The Ranch — Chickens | Free-range chickens | ⬜ Needed |
-| `ducks.jpg` | The Ranch — Ducks | Ducks by the water | ⬜ Needed |
+| File | Section | Status |
+|------|---------|--------|
+| `cows.jpg` | Cows | ✅ |
+| `sheep.jpg` | Sheep | ✅ |
+| `chickens.jpg` | Chickens | ✅ |
+| `panchito.jpg` | Panchito (Nēnē goose) | ✅ |
+
+---
+
+## Trees & Reforestation (`images/trees/`)
+
+| File | Section | Status |
+|------|---------|--------|
+| `mau-planting.jpg` | Our Trees — hero | ✅ |
+| `paola-planting.jpg` | Our Trees gallery | ✅ |
+| `paola-hugging.jpg` | Our Trees gallery | ✅ |
+| `new-tree.jpg` | Our Trees gallery | ✅ |
+| `birds.jpg` | Wild birds returning | ✅ |
+| `planting-trucker.jpg` | Planting on the ranch | ✅ |
 
 ---
 
 ## Sustainability (`images/sustainability/`)
 
-| File | Website section | What to photograph | Status |
-|------|-----------------|-------------------|--------|
-| `architecture.jpg` | Self-Sustained Architecture | Eco-friendly buildings / overall design | ⬜ Needed |
-| `rainwater.jpg` | Rainwater Harvesting | Rain collection and purification system | ⬜ Needed |
-| `solar.jpg` | Solar Power | Solar panels on the property | ⬜ Needed |
-| `wind.jpg` | Wind Energy | Wind turbine(s) | ⬜ Needed |
+| File | Section | Status |
+|------|---------|--------|
+| `architecture.jpg` | Self-sustained architecture | ✅ |
+| `rainwater.jpg` | Water tank / rainwater | ✅ |
+| `solar.jpg` | Solar panel installation | ✅ |
+| `wind.jpg` | Wind turbine | Hidden until photo ready |
 
 ---
 
 ## Airbnb (`images/airbnb/`)
 
-| File | Website section | What to photograph | Status |
-|------|-----------------|-------------------|--------|
-| `exterior.jpg` | Stay With Us (large photo) | Guest house from the outside | ✅ Uploaded |
-| `interior.jpg` | Stay With Us (small photo) | Guest house interior | ⬜ Needed |
+| File | Section | Status |
+|------|---------|--------|
+| `exterior.jpg` | Guest house exterior | ✅ |
+| `interior.jpg` | Guest house interior | ✅ |
 
 ---
 
-## Mau — Founder (`images/mau/`)
+## Mau (`images/mau/`)
 
-| File | Website section | What to photograph | Status |
-|------|-----------------|-------------------|--------|
-| `portrait.jpg` | Meet Mau (large portrait) | Portrait of Mau | ⬜ Needed |
-| `boat.jpg` | Meet Mau (boat photo) | His self-built 30-foot boat | ⬜ Needed |
+| File | Section | Status |
+|------|---------|--------|
+| `portrait.jpg` | Meet Mau portrait | ✅ |
+| `boat.jpg` | Mau's 30-foot boat | Hidden until photo ready |
 
 ---
 
 ## Gallery (`images/gallery/`)
 
-General ranch photos shown in the Gallery section. Any beautiful moments work here.
-
-| File | Website section | What to photograph | Status |
-|------|-----------------|-------------------|--------|
-| `01.jpg` | Gallery grid | Ranch photo 1 | ✅ Uploaded |
-| `02.jpg` | Gallery grid | Ranch photo 2 | ✅ Uploaded |
-| `03.jpg` | Gallery grid | Ranch photo 3 | ⬜ Needed |
-| `04.jpg` | Gallery grid | Ranch photo 4 | ⬜ Needed |
-| `05.jpg` | Gallery grid | Ranch photo 5 | ⬜ Needed |
-| `06.jpg` | Gallery grid | Ranch photo 6 | ⬜ Needed |
+| File | Status |
+|------|--------|
+| `01.jpg` – `18.jpg` | ✅ All uploaded |
 
 ---
 
-## Still needed (quick list)
+## Not on site yet (no photo)
 
-Copy this checklist when gathering photos:
+These slots are reserved but hidden until photos are available:
 
-- [ ] `images/mission.jpg`
-- [ ] `images/ranch-overview.jpg`
-- [ ] `images/animals/cows.jpg`
-- [ ] `images/animals/sheep.jpg`
-- [ ] `images/animals/chickens.jpg`
-- [ ] `images/animals/ducks.jpg`
-- [ ] `images/sustainability/architecture.jpg`
-- [ ] `images/sustainability/rainwater.jpg`
-- [ ] `images/sustainability/solar.jpg`
-- [ ] `images/sustainability/wind.jpg`
-- [ ] `images/airbnb/interior.jpg`
-- [ ] `images/mau/portrait.jpg`
-- [ ] `images/mau/boat.jpg`
-- [ ] `images/gallery/03.jpg`
-- [ ] `images/gallery/04.jpg`
-- [ ] `images/gallery/05.jpg`
-- [ ] `images/gallery/06.jpg`
+- `images/sustainability/wind.jpg` — Wind Energy section is commented out in `index.html`
+- `images/mau/boat.jpg` — boat image removed from Meet Mau section; sailing story remains in text
 
 ---
 
-## Source photos (`images/unordered/`)
+## Still needed (when photos are ready)
 
-Extra photos in `images/unordered/` are **not used by the site** until you rename and move them into the slots above. Pick the best match for each filename, then save/copy as the exact name listed in this document.
+- [ ] `images/sustainability/wind.jpg` — then uncomment Wind Energy in `index.html`
+- [ ] `images/mau/boat.jpg` — then add boat image back to Meet Mau section
 
 ---
 
 ## After adding images
-
-Push to GitHub so the live site updates:
 
 ```powershell
 git add images/

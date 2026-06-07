@@ -50,7 +50,20 @@ The ranch is called **Eco Village** — short for **ecological village**. The na
 |---|---|
 | **Full name** | Paola Rochabrun |
 | **Role** | Mau's wife; part of the Eco Village family |
-| **Website usage** | Not yet featured on the site — available for future sections (e.g. About Us, team, story) |
+| **Website usage** | Featured throughout the site — Meet Mau section, tree planting photos, gallery |
+
+---
+
+## Reforestation & Airbnb mission
+
+| | |
+|---|---|
+| **Trees planted** | **2,500+** across Hawaiʻi |
+| **Airbnb income** | Reinvested to **buy more trees**, **maintain the ranch**, and **bring wild birds back** to the land |
+| **Website section** | **Our Trees** (`#trees`) |
+| **Images** | `images/trees/` — planting, birds, Paola and Mau with trees |
+
+> When writing about Airbnb stays, always connect guest income to the reforestation mission.
 
 ---
 
@@ -63,7 +76,7 @@ The ranch is called **Eco Village** — short for **ecological village**. The na
 | **Scientific name** | *Branta sandvicensis* |
 | **Significance** | Official **state bird of Hawaiʻi**; found naturally only in the Hawaiian Islands |
 | **Story** | A wild goose who visits Mau's ranch very often. Mau planted **fruits Panchito likes** and built a **pond** for him. |
-| **Website usage** | Not yet on the site — strong candidate for The Ranch section or a dedicated wildlife story |
+| **Website usage** | Featured in The Ranch section; image at `images/animals/panchito.jpg` |
 
 **Note:** Panchito is a **goose** (Nēnē), not a duck. The ranch also has ducks as separate animals.
 
@@ -136,6 +149,7 @@ Eco-friendly **Airbnb** guest house on the property.
 2. Honor the eco/self-sustained message in all new copy.
 3. Use **Mau** (not Mao) for the founder everywhere on the site.
 4. **Panchito** is a Nēnē — cite him accurately if added to the site.
-5. **Paola Rochabrun** may be added when the owners want her featured.
-6. See `IMAGES.md` before adding or renaming image paths.
-7. After content changes, remind the user to `git add`, `git commit`, and `git push` if they want the live site updated.
+5. **Paola Rochabrun** is co-steward of the ranch — feature her in tree planting and family story content.
+6. Mention **2,500+ trees** and **Airbnb → reforestation** when updating mission or stay sections.
+7. See `IMAGES.md` before adding or renaming image paths.
+8. After content changes, remind the user to `git add`, `git commit`, and `git push` if they want the live site updated.
