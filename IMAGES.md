@@ -10,9 +10,9 @@ Reference for all photos used on the website. Save each file with the **exact fi
 
 | Status | Count |
 |--------|------:|
-| Uploaded | 34 |
+| Uploaded | 44 |
 | Still needed | 2 (hidden on site) |
-| **Total** | **36** |
+| **Total** | **46** |
 
 ---
 
@@ -33,7 +33,11 @@ Reference for all photos used on the website. Save each file with the **exact fi
 | `cows.jpg` | Cows | ✅ |
 | `sheep.jpg` | Sheep | ✅ |
 | `chickens.jpg` | Chickens | ✅ |
-| `panchito.jpg` | Panchito (Nēnē goose) | ✅ |
+| `panchito.jpg` | Panchito at guest house patio | ✅ |
+| `panchito-in-pond.jpg` | Panchito swimming in his pond | ✅ |
+| `panchito-on-grass.jpg` | Panchito on the grass | ✅ |
+| `panchito-at-airbnb.jpg` | Panchito in front of guest house | ✅ |
+| `panchito-portrait.jpg` | Panchito at sunset | ✅ |
 
 ---
 
@@ -47,6 +51,8 @@ Reference for all photos used on the website. Save each file with the **exact fi
 | `new-tree.jpg` | Our Trees gallery | ✅ |
 | `birds.jpg` | Wild birds returning | ✅ |
 | `planting-trucker.jpg` | Planting on the ranch | ✅ |
+| `mau-with-bird.jpg` | Mau holding a wild bird | ✅ |
+| `guests-planting.jpg` | Mau and guests planting trees | ✅ |
 
 ---
 
@@ -66,7 +72,9 @@ Reference for all photos used on the website. Save each file with the **exact fi
 | File | Section | Status |
 |------|---------|--------|
 | `exterior.jpg` | Guest house exterior | ✅ |
-| `interior.jpg` | Guest house interior | ✅ |
+| `interior.jpg` | Guest bedroom | ✅ |
+| `kitchen.jpg` | Kitchenette and dining area | ✅ |
+| `shower.jpg` | Blue-tile shower | ✅ |
 
 ---
 
@@ -84,6 +92,8 @@ Reference for all photos used on the website. Save each file with the **exact fi
 | File | Status |
 |------|--------|
 | `01.jpg` – `18.jpg` | ✅ All uploaded |
+| `19.jpg` | Paola bottle-feeding a lamb | ✅ |
+| `20.jpg` | Guests harvesting bananas and planting | ✅ |
 
 ---
 

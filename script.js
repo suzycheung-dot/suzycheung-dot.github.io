@@ -42,23 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(el);
   });
 
-  // Contact form placeholder handler
-  const form = document.querySelector('.contact-form');
-  if (form) {
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      const btn = form.querySelector('button[type="submit"]');
-      const originalText = btn.textContent;
-      btn.textContent = 'Message Sent!';
-      btn.disabled = true;
-      setTimeout(() => {
-        btn.textContent = originalText;
-        btn.disabled = false;
-        form.reset();
-      }, 3000);
-    });
-  }
-
   // Mark broken images as placeholders
   document.querySelectorAll('img').forEach(img => {
     if (!img.complete || img.naturalHeight === 0) {

@@ -163,10 +163,6 @@ em {
   border-color: var(--color-white);
 }
 
-.btn-full {
-  width: 100%;
-}
-
 /* Section utilities */
 .section {
   padding: var(--space-2xl) 0;
@@ -501,6 +497,46 @@ em {
 .animal-info p {
   font-size: 0.9rem;
   opacity: 0.8;
+}
+
+.panchito-spotlight {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: var(--space-xl);
+  align-items: center;
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg);
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-lg);
+}
+
+.panchito-spotlight-text h3 {
+  color: var(--color-sand);
+  margin-bottom: var(--space-sm);
+}
+
+.panchito-spotlight-text p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+.panchito-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-sm);
+}
+
+.panchito-gallery img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  transition: transform var(--transition);
+}
+
+.panchito-gallery img:hover {
+  transform: scale(1.03);
 }
 
 .ranch-feature {
@@ -898,21 +934,20 @@ em {
 }
 
 .contact-card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-xl);
+  max-width: 36rem;
+  margin: 0 auto;
   background: var(--color-white);
   border-radius: var(--radius-lg);
   padding: var(--space-xl);
   box-shadow: var(--shadow-medium);
 }
 
-.contact-text h2 {
+.contact-card h2 {
   color: var(--color-forest);
   margin-bottom: var(--space-md);
 }
 
-.contact-text > p {
+.contact-card > p {
   color: var(--color-text-muted);
   margin-bottom: var(--space-lg);
 }
@@ -941,50 +976,6 @@ em {
   color: var(--color-ocean);
   text-decoration: underline;
   text-underline-offset: 3px;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
-}
-
-.form-group label {
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--color-forest);
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--color-sand);
-  border-radius: var(--radius-sm);
-  background: var(--color-cream);
-  color: var(--color-text);
-  transition: border-color var(--transition);
-}
-
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--color-sage);
-}
-
-.form-note {
-  font-size: 0.75rem;
-  color: var(--color-text-muted);
-  text-align: center;
 }
 
 /* Footer */
@@ -1076,8 +1067,8 @@ em {
   .mission-grid,
   .stay-grid,
   .mau-grid,
-  .contact-card,
   .ranch-feature,
+  .panchito-spotlight,
   .trees-feature,
   .architecture-feature {
     grid-template-columns: 1fr;
@@ -1098,6 +1089,10 @@ em {
   }
 
   .trees-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .panchito-gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 

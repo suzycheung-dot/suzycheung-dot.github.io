@@ -34,6 +34,7 @@ The ranch is called **Eco Village** — short for **ecological village**. The na
 | **Role** | Founder and owner of Wild Life Habitat Eco Village |
 | **Email** | mauriciobarbis@hotmail.com |
 | **Phone** | +1 (808) 747-7060 |
+| **Address** | 620 Kulaniapia Dr., Hilo, HI 96720 |
 
 **Background:** Mau sailed from **Peru to Hawaiʻi** over **three years** in a **self-built 30-foot boat**, including **45 days alone across the Pacific Ocean**. That same spirit of courage, craftsmanship, and faith in nature built Eco Village.
 
@@ -90,7 +91,7 @@ Inspire humanity to protect Mother Nature — to help others, protect the enviro
 
 ### Location
 
-Hilo, Hawaiʻi, USA
+620 Kulaniapia Dr., Hilo, HI 96720
 
 ### Animals on the ranch
 
