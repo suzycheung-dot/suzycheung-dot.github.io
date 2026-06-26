@@ -1,4 +1,4 @@
-# Wild Life Habitat Eco Village
+# Wildlife Habitat Eco Village
 
 A website for the eco-friendly ranch in Hilo, Hawaiʻi — inspiring people worldwide to protect Mother Nature.
 
@@ -31,7 +31,6 @@ Replace the placeholder images by saving your photos with these exact filenames:
 | `cows.jpg` | Cows grazing |
 | `sheep.jpg` | Sheep on the hills |
 | `chickens.jpg` | Free-range chickens |
-| `ducks.jpg` | Ducks by the water |
 
 ### Sustainability (`images/sustainability/`)
 

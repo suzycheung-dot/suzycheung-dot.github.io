@@ -1,5 +1,5 @@
 /* ============================================
-   Wild Life Habitat Eco Village
+   Wildlife Habitat Eco Village
    Nature-inspired design system
    ============================================ */
 
@@ -78,7 +78,6 @@ img.placeholder,
 img[src=""],
 img:not([src]) {
   background: linear-gradient(135deg, var(--color-sage) 0%, var(--color-forest) 50%, var(--color-ocean) 100%);
-  min-height: 200px;
   object-fit: cover;
   position: relative;
 }
@@ -161,6 +160,29 @@ em {
 .btn-outline:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: var(--color-white);
+}
+
+.btn-outline-dark {
+  background: transparent;
+  color: var(--color-forest);
+  border-color: var(--color-forest);
+}
+
+.btn-outline-dark:hover {
+  background: var(--color-forest);
+  color: var(--color-white);
+  border-color: var(--color-forest);
+}
+
+/* Focus styles */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+.nav-cta:focus-visible {
+  outline-color: var(--color-white);
 }
 
 /* Section utilities */
@@ -306,6 +328,25 @@ em {
   height: 2px;
   background: var(--color-white);
   transition: var(--transition);
+}
+
+.nav-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  background: rgba(26, 46, 38, 0.5);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+body.nav-open {
+  overflow: hidden;
+}
+
+body.nav-open .nav-backdrop {
+  display: block;
 }
 
 /* Hero */
@@ -865,6 +906,18 @@ em {
   font-weight: 600;
 }
 
+.stay-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+.stay-actions .btn {
+  flex: 1 1 auto;
+  min-width: 10rem;
+}
+
 /* Mau */
 .mau {
   background: linear-gradient(160deg, var(--color-forest-dark) 0%, var(--color-ocean) 100%);
@@ -928,6 +981,14 @@ em {
   opacity: 0.7;
 }
 
+.mau-blog-link {
+  margin-top: var(--space-lg);
+}
+
+.mau-blog-link p {
+  margin-bottom: var(--space-md);
+}
+
 /* Gallery */
 .gallery {
   background: var(--color-cream);
@@ -940,18 +1001,138 @@ em {
   gap: var(--space-sm);
 }
 
-.gallery-grid img {
+.gallery-item {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  overflow: hidden;
+  font: inherit;
+  text-align: inherit;
+}
+
+.gallery-item img {
   width: 100%;
   aspect-ratio: 4/3;
   object-fit: cover;
   border-radius: var(--radius-md);
   transition: transform var(--transition), box-shadow var(--transition);
+  display: block;
+}
+
+.gallery-item:hover img,
+.gallery-item:focus-visible img {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-medium);
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(26, 46, 38, 0.92);
+  border: none;
+  padding: 0;
   cursor: pointer;
 }
 
-.gallery-grid img:hover {
-  transform: scale(1.02);
-  box-shadow: var(--shadow-medium);
+.lightbox-inner {
+  position: relative;
+  z-index: 1;
+  width: min(92vw, 1100px);
+  max-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+}
+
+.lightbox-figure {
+  margin: 0;
+  max-width: 100%;
+  max-height: 85vh;
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  margin-inline: auto;
+}
+
+.lightbox-caption {
+  margin-top: var(--space-sm);
+  text-align: center;
+  color: var(--color-cream);
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.lightbox-close,
+.lightbox-nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--color-white);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.lightbox-close:hover,
+.lightbox-nav:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.lightbox-close {
+  top: var(--space-sm);
+  right: var(--space-sm);
+  width: 44px;
+  height: 44px;
+  font-size: 1.75rem;
+  line-height: 1;
+  z-index: 2;
+}
+
+.lightbox-nav {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+}
+
+.lightbox-prev {
+  left: 0;
+}
+
+.lightbox-next {
+  right: 0;
 }
 
 /* Contact */
@@ -1005,6 +1186,19 @@ em {
   text-underline-offset: 3px;
 }
 
+.contact-interest {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px solid rgba(45, 90, 74, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.contact-interest .btn {
+  width: 100%;
+}
+
 /* Footer */
 .site-footer {
   background: var(--color-forest-dark);
@@ -1027,8 +1221,6 @@ em {
   display: block;
   width: 80px;
   height: 80px;
-  border-radius: 50%;
-  overflow: hidden;
   transition: transform var(--transition);
 }
 
@@ -1036,9 +1228,7 @@ em {
   width: 100%;
   height: 100%;
   max-width: none;
-  aspect-ratio: 1;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
 }
 
 .footer-logo:hover .footer-logo-mark {
@@ -1085,6 +1275,26 @@ em {
   transform: translateY(0);
 }
 
+.trees-header h2 .tree-counter {
+  color: var(--color-gold);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .gallery-item img {
+    transition: none;
+  }
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .nav-toggle {
@@ -1103,6 +1313,7 @@ em {
     background: var(--color-forest-dark);
     gap: var(--space-md);
     transition: right var(--transition);
+    z-index: 100;
   }
 
   .nav-links.open {
@@ -1173,5 +1384,22 @@ em {
   .btn {
     width: 100%;
     max-width: 280px;
+  }
+
+  .lightbox-inner {
+    padding: var(--space-sm);
+  }
+
+  .lightbox-nav {
+    width: 40px;
+    height: 40px;
+  }
+
+  .lightbox-prev {
+    left: var(--space-xs);
+  }
+
+  .lightbox-next {
+    right: var(--space-xs);
   }
 }

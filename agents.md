@@ -1,4 +1,4 @@
-# agents.md — Wild Life Habitat Eco Village
+# agents.md — Wildlife Habitat Eco Village
 
 Context for AI agents working on this project. Use this file to keep names, meanings, and facts consistent across the website and future updates.
 
@@ -6,12 +6,13 @@ Context for AI agents working on this project. Use this file to keep names, mean
 
 ## Project overview
 
-**Wild Life Habitat Eco Village** is a self-sustained eco-ranch in **Hilo, Hawaiʻi** (Big Island). The website introduces the ranch and inspires people worldwide to protect Mother Nature.
+**Wildlife Habitat Eco Village** is a self-sustained eco-ranch in **Hilo, Hawaiʻi** (Big Island). The website introduces the ranch and inspires people worldwide to protect Mother Nature.
 
 - **Live site:** [www.wildlifehabitatecovillage.org](https://www.wildlifehabitatecovillage.org)
 - **GitHub Pages repo:** [suzycheung-dot/suzycheung-dot.github.io](https://github.com/suzycheung-dot/suzycheung-dot.github.io)
 - **Stack:** Static site — `index.html`, `styles.css`, `script.js`, images in `images/`
 - **Image reference:** See `IMAGES.md` for required photos and upload status
+- **Airbnb listing:** [Book on Airbnb](https://www.airbnb.com/rooms/1043184377134933355)
 
 ---
 
@@ -23,6 +24,10 @@ The ranch is called **Eco Village** — short for **ecological village**. The na
 
 > Always use **Eco**, never **Echo**, in all site copy and filenames.
 
+### Wildlife (one word)
+
+The full ranch name is **Wildlife Habitat Eco Village** — **Wildlife** is one word, not "Wild Life."
+
 ---
 
 ### Mauricio Barbis — owner (goes by **Mau**)
@@ -31,7 +36,7 @@ The ranch is called **Eco Village** — short for **ecological village**. The na
 |---|---|
 | **Full name** | Mauricio Barbis |
 | **Nickname** | **Mau** (use this on the website) |
-| **Role** | Founder and owner of Wild Life Habitat Eco Village |
+| **Role** | Founder and owner of Wildlife Habitat Eco Village |
 | **Email** | mauriciobarbis@hotmail.com |
 | **Phone** | +1 (808) 747-7060 |
 | **Address** | 620 Kulaniapia Dr., Hilo, HI 96720 |
@@ -79,7 +84,7 @@ The ranch is called **Eco Village** — short for **ecological village**. The na
 | **Story** | A wild goose who visits Mau's ranch very often. Mau planted **fruits Panchito likes** and built a **pond** for him. |
 | **Website usage** | Featured in The Ranch section; image at `images/animals/panchito.jpg` |
 
-**Note:** Panchito is a **goose** (Nēnē), not a duck. The ranch also has ducks as separate animals.
+**Note:** Panchito is a **goose** (Nēnē), not a duck.
 
 ---
 
@@ -100,7 +105,6 @@ Inspire humanity to protect Mother Nature — to help others, protect the enviro
 | Cows | Grazing livestock |
 | Sheep | Hillside flocks |
 | Chickens | Free-range |
-| Ducks | By the water |
 | **Panchito** | Wild Nēnē (Hawaiian goose) — frequent visitor, not owned livestock |
 
 ### Self-sustained architecture
@@ -122,7 +126,8 @@ Eco-friendly **Airbnb** guest house on the property.
 
 | Term | Correct | Incorrect |
 |------|---------|-----------|
-| Ranch name | Eco Village | Echo Village |
+| Full ranch name | Wildlife Habitat Eco Village | Wild Life Habitat, Echo Village |
+| Ranch name (short) | Eco Village | Echo Village |
 | Owner (public) | Mau | Mao, Mauricio (alone, in headlines) |
 | Owner (formal/contact) | Mauricio Barbis | — |
 | Wife | Paola Rochabrun | — |
@@ -137,7 +142,7 @@ Eco-friendly **Airbnb** guest house on the property.
 |------|---------|
 | `index.html` | Main page content and structure |
 | `styles.css` | Visual design |
-| `script.js` | Navigation, animations, form placeholder |
+| `script.js` | Navigation, animations, gallery lightbox, tree counter |
 | `IMAGES.md` | Image upload checklist |
 | `agents.md` | This file — project context for AI agents |
 | `CNAME` | Custom domain: `www.wildlifehabitatecovillage.org` |

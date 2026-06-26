@@ -1,4 +1,4 @@
-# Image Checklist — Wild Life Habitat Eco Village
+# Image Checklist — Wildlife Habitat Eco Village
 
 Reference for all photos used on the website. Save each file with the **exact filename** shown below.
 

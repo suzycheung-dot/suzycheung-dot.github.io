@@ -1,0 +1,11 @@
+{
+  "name": "wildlifehabitat-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "optimize-images": "node scripts/convert-to-webp.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.2"
+  }
+}
