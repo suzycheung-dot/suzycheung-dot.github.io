@@ -918,6 +918,64 @@ body.nav-open .nav-backdrop {
   min-width: 10rem;
 }
 
+.stay-faq {
+  margin-top: var(--space-2xl);
+  max-width: 42rem;
+}
+
+.stay-faq-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  color: var(--color-forest);
+  margin-bottom: var(--space-md);
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(45, 74, 52, 0.15);
+  padding: var(--space-sm) 0;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 500;
+  color: var(--color-forest);
+  padding: 0.35rem 1.75rem 0.35rem 0;
+  position: relative;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  top: 0.35rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-terracotta);
+  line-height: 1;
+}
+
+.faq-item[open] summary::after {
+  content: '−';
+}
+
+.faq-item p {
+  margin: 0.5rem 0 var(--space-sm);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
 /* Mau */
 .mau {
   background: linear-gradient(160deg, var(--color-forest-dark) 0%, var(--color-ocean) 100%);
