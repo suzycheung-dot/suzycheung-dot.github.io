@@ -50,11 +50,11 @@ The full ranch name is **Wildlife Habitat Eco Village** — **Wildlife** is one 
 
 ---
 
-### Paola Rochabrun — Mau's wife
+### Paola Barbis — Mau's wife
 
 | | |
 |---|---|
-| **Full name** | Paola Rochabrun |
+| **Full name** | Paola Barbis (née Rochabrun) — the couple signs as "Mauricio and Paola Barbis" |
 | **Role** | Mau's wife; part of the Eco Village family |
 | **Website usage** | Featured throughout the site — Meet Mau section, tree planting photos, gallery |
 
@@ -64,12 +64,27 @@ The full ranch name is **Wildlife Habitat Eco Village** — **Wildlife** is one 
 
 | | |
 |---|---|
-| **Trees planted** | **2,500+** across Hawaiʻi |
+| **Trees planted** | **2,000+** native and non-native trees on the 20 acres |
 | **Airbnb income** | Reinvested to **buy more trees**, **maintain the ranch**, and **bring wild birds back** to the land |
-| **Website section** | **Our Trees** (`#trees`) |
-| **Images** | `images/trees/` — planting, birds, Paola and Mau with trees |
+| **Website section** | **Our Trees** (`#trees`) summary + full story on **`forest-plan.html`** |
+| **Images** | `images/trees/` — planting, birds, Paola and Mau with trees; `images/forest/` — forest plan page |
 
 > When writing about Airbnb stays, always connect guest income to the reforestation mission.
+
+### Forest plan (planning since 2020)
+
+The land — **20 acres on the Hāmākua Coast, just above Hilo** — was once native forest, later cleared for sugar cane and cattle.
+
+| Area | Acres | Plan |
+|------|------:|------|
+| Native restoration | 3 | ~**900** trees and shrubs planted with a grant and help from the **USDA NRCS** — ʻŌhiʻa, Koa, Koaia, ʻIliahi (sandalwood), Hāpuʻu, Pua Kenikeni, ʻIlima, Milo, Kukui, and others |
+| Canopy forest & living tree park | 9 | Chosen with botanists for canopy and educational value — mahogany, cedar, blue marble, narra, primavera, monkeypod, cocobolo, hau, white/pink/yellow shower trees, bodhi, milo, balsa |
+| Pasture → silvopasture | 8 | Small herd: 3 cows, 3 calves, 1 bull. Plan to integrate trees, forage, and livestock in ~5 years |
+
+- **Mahogany:** planted at ~5 inches; 60+ feet tall five years later — the headline story for visitors.
+- **Understory / agroforestry:** next layer of smaller trees and shrubs; **cacao** is being considered.
+- **Closing line:** "Inspire YOU is our goal."
+- Mau and Paola have called Hawaiʻi home for **26 years**.
 
 ---
 
@@ -118,7 +133,11 @@ Buildings are designed to sustain themselves and **not pollute Mother Nature**:
 
 ### Hospitality
 
-Eco-friendly **Airbnb** guest house on the property.
+Small, off-grid **Airbnb** guest bungalows — powered only by the sun and supplied with rainwater.
+
+### How they describe the Eco Village
+
+Born from gratitude after 26 years on the island: "How can we give something back to the place that has given us so much?" They use Mother Nature "not simply as our inspiration, but as our greatest ally," combining reforestation, clean energy, and meaningful encounters with nature so guests experience Hawaiʻi responsibly.
 
 ---
 
@@ -130,7 +149,7 @@ Eco-friendly **Airbnb** guest house on the property.
 | Ranch name (short) | Eco Village | Echo Village |
 | Owner (public) | Mau | Mao, Mauricio (alone, in headlines) |
 | Owner (formal/contact) | Mauricio Barbis | — |
-| Wife | Paola Rochabrun | — |
+| Wife | Paola Barbis | — |
 | Wild goose | Panchito (Nēnē) | duck, generic goose |
 | State bird | Nēnē (*Branta sandvicensis*) | — |
 
@@ -141,6 +160,7 @@ Eco-friendly **Airbnb** guest house on the property.
 | File | Purpose |
 |------|---------|
 | `index.html` | Main page content and structure |
+| `forest-plan.html` | Forest Plan story page (reforestation, tree park, silvopasture) |
 | `styles.css` | Visual design |
 | `script.js` | Navigation, animations, gallery lightbox, tree counter |
 | `IMAGES.md` | Image upload checklist |
@@ -155,7 +175,8 @@ Eco-friendly **Airbnb** guest house on the property.
 2. Honor the eco/self-sustained message in all new copy.
 3. Use **Mau** (not Mao) for the founder everywhere on the site.
 4. **Panchito** is a Nēnē — cite him accurately if added to the site.
-5. **Paola Rochabrun** is co-steward of the ranch — feature her in tree planting and family story content.
-6. Mention **2,500+ trees** and **Airbnb → reforestation** when updating mission or stay sections.
+5. **Paola Barbis** is co-steward of the ranch — feature her in tree planting and family story content.
+6. Mention **2,000+ trees** and **Airbnb → reforestation** when updating mission or stay sections.
 7. See `IMAGES.md` before adding or renaming image paths.
-8. After content changes, remind the user to `git add`, `git commit`, and `git push` if they want the live site updated.
+8. Never mention the magazine the mission text was originally pitched to.
+9. After content changes, remind the user to `git add`, `git commit`, and `git push` if they want the live site updated.

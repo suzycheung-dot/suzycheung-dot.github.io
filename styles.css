@@ -1321,6 +1321,581 @@ body.lightbox-open {
   opacity: 0.5;
 }
 
+/* Mission quote */
+.mission-text .mission-quote {
+  margin: var(--space-lg) 0;
+  padding: var(--space-md) var(--space-lg);
+  border-left: 3px solid var(--color-terracotta);
+  background: var(--color-white);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  box-shadow: var(--shadow-soft);
+}
+
+.mission-text .mission-quote p {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--color-forest);
+  margin-bottom: var(--space-xs);
+}
+
+.mission-quote cite {
+  font-size: 0.85rem;
+  font-style: normal;
+  color: var(--color-text-muted);
+}
+
+/* Forest plan teaser (homepage #trees) */
+.forest-teaser {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  margin-top: var(--space-xl);
+  padding: var(--space-lg);
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-lg);
+}
+
+.forest-teaser-text h3 {
+  color: var(--color-sand);
+  margin-bottom: var(--space-sm);
+}
+
+.forest-teaser-text > p {
+  opacity: 0.9;
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+}
+
+.forest-teaser-text .btn {
+  margin-top: var(--space-lg);
+}
+
+.forest-teaser-stat {
+  text-align: center;
+  padding: var(--space-lg);
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius-md);
+}
+
+.forest-teaser-stat p {
+  margin-top: var(--space-md);
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* Stay: bungalow photos */
+.stay-bungalows {
+  margin-top: var(--space-xl);
+}
+
+.stay-bungalows-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  color: var(--color-forest);
+  margin-bottom: var(--space-md);
+}
+
+.stay-bungalows-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-sm);
+}
+
+.stay-bungalows-grid img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  transition: transform var(--transition);
+}
+
+.stay-bungalows-grid img:hover {
+  transform: scale(1.03);
+}
+
+/* Forest Plan page */
+.page-hero,
+.page-hero .hero-image {
+  min-height: 78vh;
+}
+
+.forest-intro {
+  background: var(--color-cream);
+}
+
+.forest-intro-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+  margin-bottom: var(--space-xl);
+}
+
+.forest-intro-text p {
+  margin-bottom: var(--space-md);
+  color: var(--color-text-muted);
+}
+
+.forest-intro-text .lead {
+  color: var(--color-text);
+  font-size: 1.25rem;
+}
+
+.forest-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-sm);
+}
+
+.forest-stats li {
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-soft);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+.forest-stat-number {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--color-forest);
+  margin-bottom: 0.25rem;
+}
+
+.land-map {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.land-map-title {
+  color: var(--color-forest);
+  margin-bottom: var(--space-md);
+}
+
+.land-map-bar {
+  display: flex;
+  gap: 3px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.land-map-zone {
+  flex-basis: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.land-map-zone--native {
+  background: var(--color-forest);
+}
+
+.land-map-zone--canopy {
+  background: var(--color-sage);
+}
+
+.land-map-zone--pasture {
+  background: var(--color-terracotta);
+}
+
+.land-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs) var(--space-lg);
+  margin-top: var(--space-md);
+}
+
+.land-map-key {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  transition: color var(--transition);
+}
+
+a.land-map-key:hover {
+  color: var(--color-forest);
+}
+
+.land-map-key strong {
+  font-weight: 500;
+  color: var(--color-forest);
+  margin-right: 0.25rem;
+}
+
+.land-map-swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.land-map-legend--light .land-map-key {
+  color: rgba(247, 244, 239, 0.85);
+}
+
+.land-map-legend--light .land-map-key strong {
+  color: var(--color-sand);
+}
+
+.forest-zone-section--native,
+.forest-zone-section--pasture {
+  background: var(--color-sand);
+}
+
+.forest-zone-section--canopy {
+  background: var(--color-cream);
+}
+
+.forest-zone {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.forest-zone--reverse {
+  direction: rtl;
+}
+
+.forest-zone--reverse > * {
+  direction: ltr;
+}
+
+.forest-zone-text h2 {
+  color: var(--color-forest);
+  margin-bottom: var(--space-md);
+}
+
+.forest-zone-text p {
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+}
+
+.forest-zone-text .lead {
+  color: var(--color-text);
+}
+
+.forest-zone-image {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-medium);
+}
+
+.forest-zone-image img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.forest-zone-image--tall img {
+  aspect-ratio: 4/5;
+}
+
+.species-title {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-sage);
+  margin: var(--space-lg) 0 var(--space-sm);
+}
+
+.species-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.species-list li {
+  background: var(--color-white);
+  border: 1px solid rgba(45, 74, 62, 0.15);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--color-forest);
+}
+
+.species-list li span {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.silvo-benefits {
+  margin-bottom: var(--space-md);
+}
+
+.silvo-benefits li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: var(--space-sm);
+  color: var(--color-text-muted);
+}
+
+.silvo-benefits li::before {
+  content: '◆';
+  position: absolute;
+  left: 0;
+  color: var(--color-terracotta);
+  font-size: 0.65rem;
+  top: 0.35rem;
+}
+
+.silvo-benefits strong {
+  font-weight: 500;
+  color: var(--color-forest);
+}
+
+.mahogany {
+  background: linear-gradient(160deg, var(--color-forest-dark) 0%, var(--color-ocean) 100%);
+  color: var(--color-cream);
+  text-align: center;
+}
+
+.mahogany-inner {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.mahogany-inner h2 {
+  margin-bottom: var(--space-lg);
+}
+
+.mahogany-inner p {
+  opacity: 0.9;
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+}
+
+.mahogany-inner .lead {
+  color: var(--color-sand);
+  opacity: 1;
+}
+
+.mahogany-growth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.mahogany-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mahogany-number {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 10vw, 5.5rem);
+  font-weight: 600;
+  line-height: 1;
+  color: var(--color-gold);
+}
+
+.mahogany-number small {
+  font-size: 0.4em;
+  margin-left: 0.1em;
+  color: var(--color-cream);
+  opacity: 0.8;
+}
+
+.mahogany-caption {
+  margin-top: var(--space-xs);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.mahogany-arrow {
+  position: relative;
+  width: 120px;
+  border-top: 2px dashed rgba(201, 168, 76, 0.7);
+  padding-top: var(--space-xs);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.mahogany-arrow::after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: -7px;
+  border: 6px solid transparent;
+  border-left: 9px solid rgba(201, 168, 76, 0.9);
+  border-right: 0;
+}
+
+.forest-teaser-stat .mahogany-growth {
+  gap: var(--space-md);
+  margin-bottom: 0;
+}
+
+.forest-teaser-stat .mahogany-number {
+  font-size: clamp(2.4rem, 6vw, 3.2rem);
+}
+
+.forest-teaser-stat .mahogany-arrow {
+  width: 70px;
+}
+
+.forest-understory {
+  background: var(--color-cream);
+}
+
+.understory-card {
+  max-width: 640px;
+  margin-inline: auto;
+  display: flex;
+  gap: var(--space-md);
+  align-items: flex-start;
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.understory-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.understory-card h3 {
+  color: var(--color-forest);
+  margin-bottom: var(--space-xs);
+}
+
+.understory-card p {
+  color: var(--color-text-muted);
+}
+
+.forest-timeline-section {
+  background: var(--color-cream);
+}
+
+.forest-timeline {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-md);
+}
+
+.forest-timeline-item {
+  position: relative;
+  padding-top: var(--space-lg);
+  border-top: 3px solid var(--color-moss);
+}
+
+.forest-timeline-item::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: var(--color-forest);
+  border: 3px solid var(--color-cream);
+}
+
+.forest-timeline-when {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-terracotta);
+}
+
+.forest-timeline-item h3 {
+  font-size: 1.3rem;
+  color: var(--color-forest);
+  margin: 0.25rem 0 var(--space-xs);
+}
+
+.forest-timeline-item p {
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.forest-closing {
+  background: linear-gradient(165deg, var(--color-forest) 0%, #3d5a48 100%);
+  color: var(--color-cream);
+}
+
+.forest-closing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.forest-closing-image img {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-medium);
+}
+
+.forest-closing-text h2 {
+  margin-bottom: var(--space-md);
+}
+
+.forest-closing-text h2 em {
+  color: var(--color-gold);
+}
+
+.forest-closing-text p {
+  opacity: 0.9;
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+}
+
+.forest-closing-text .lead {
+  color: var(--color-sand);
+  opacity: 1;
+}
+
+.forest-closing-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+.nav-links a[aria-current="page"] {
+  color: var(--color-white);
+  font-weight: 500;
+}
+
 /* Animations */
 .fade-in {
   opacity: 0;
@@ -1354,7 +1929,7 @@ body.lightbox-open {
 }
 
 /* Responsive */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .nav-toggle {
     display: flex;
   }
@@ -1377,15 +1952,45 @@ body.lightbox-open {
   .nav-links.open {
     right: 0;
   }
+}
 
+@media (max-width: 900px) {
   .mission-grid,
   .stay-grid,
   .mau-grid,
   .ranch-feature,
   .panchito-spotlight,
   .trees-feature,
-  .architecture-feature {
+  .architecture-feature,
+  .forest-teaser,
+  .forest-intro-grid,
+  .forest-zone,
+  .forest-closing-grid {
     grid-template-columns: 1fr;
+  }
+
+  .forest-zone--reverse {
+    direction: ltr;
+  }
+
+  .stay-bungalows-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .forest-timeline {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .forest-timeline-item {
+    border-top: none;
+    border-left: 3px solid var(--color-moss);
+    padding: 0 0 var(--space-lg) var(--space-lg);
+  }
+
+  .forest-timeline-item::before {
+    top: 0;
+    left: -10px;
   }
 
   .animal-grid {
@@ -1437,6 +2042,18 @@ body.lightbox-open {
   .hero-actions {
     flex-direction: column;
     align-items: center;
+  }
+
+  .mahogany-growth {
+    gap: var(--space-sm);
+  }
+
+  .mahogany-arrow {
+    width: 56px;
+  }
+
+  .land-map-zone {
+    font-size: 0.75rem;
   }
 
   .btn {

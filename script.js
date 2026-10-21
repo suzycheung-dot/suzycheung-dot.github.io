@@ -159,7 +159,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll(
     '.value-card, .animal-card, .eco-card, .mission-image-wrap, ' +
-    '.ranch-feature, .trees-feature, .trees-gallery, .architecture-feature, .stay-grid, .mau-grid, .gallery-item, .contact-card'
+    '.ranch-feature, .trees-feature, .trees-gallery, .architecture-feature, .stay-grid, .mau-grid, .gallery-item, .contact-card, ' +
+    '.forest-teaser, .stay-bungalows, .forest-intro-grid, .land-map, .forest-zone, .mahogany-inner, .understory-card, ' +
+    '.forest-timeline-item, .forest-closing-grid'
   ).forEach(el => {
     el.classList.add('fade-in');
     if (prefersReducedMotion) {

@@ -10,9 +10,9 @@ Reference for all photos used on the website. Save each file with the **exact fi
 
 | Status | Count |
 |--------|------:|
-| Uploaded | 44 |
-| Still needed | 2 (hidden on site) |
-| **Total** | **46** |
+| Uploaded | 52 |
+| Still needed | 3 (2 hidden on site, 1 wanted) |
+| **Total** | **55** |
 
 ---
 
@@ -75,6 +75,22 @@ Reference for all photos used on the website. Save each file with the **exact fi
 | `interior.jpg` | Guest bedroom | ✅ |
 | `kitchen.jpg` | Kitchenette and dining area | ✅ |
 | `shower.jpg` | Blue-tile shower | ✅ |
+| `bungalow-view.jpg` | Inside the bungalows — bed facing views | ✅ |
+| `bungalow-doors.jpg` | Inside the bungalows — sliding doors & bistro table | ✅ |
+| `bungalow-bedroom.jpg` | Inside the bungalows — queen bed | ✅ |
+| `bungalow-kitchenette.jpg` | Inside the bungalows — kitchenette nook | ✅ |
+
+---
+
+## Forest Plan (`images/forest/`) — used on `forest-plan.html`
+
+| File | Section | Status |
+|------|---------|--------|
+| `young-forest.jpg` | Page hero — Paola among young trees | ✅ |
+| `nene-saplings.jpg` | Native restoration — Nēnē along a row of saplings | ✅ |
+| `paola-young-tree.jpg` | Canopy forest & tree park | ✅ |
+| `rainbow-bungalows.jpg` | Closing "Inspire You" (low-res original, 480×640) | ✅ |
+| `mahogany.jpg` | Mahogany story — tall trees with a person for scale | Wanted |
 
 ---
 
