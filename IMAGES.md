@@ -10,9 +10,9 @@ Reference for all photos used on the website. Save each file with the **exact fi
 
 | Status | Count |
 |--------|------:|
-| Uploaded | 52 |
-| Still needed | 3 (2 hidden on site, 1 wanted) |
-| **Total** | **55** |
+| Uploaded | 54 |
+| Still needed | 3 (2 hidden on site, 1 coming) |
+| **Total** | **57** |
 
 ---
 
@@ -86,11 +86,13 @@ Reference for all photos used on the website. Save each file with the **exact fi
 
 | File | Section | Status |
 |------|---------|--------|
-| `young-forest.jpg` | Page hero — Paola among young trees | ✅ |
-| `nene-saplings.jpg` | Native restoration — Nēnē along a row of saplings | ✅ |
+| `young-forest.jpg` | Page hero + Mahogany "now" photo — Paola beside the 60-ft mahoganies | ✅ |
+| `ohia-sunrise.jpg` | Native restoration — ʻŌhiʻa lehua blossoms at sunrise | ✅ |
+| `nrcs-sunrise.jpg` | Alternate — sunrise over the NRCS planting (not on page yet) | ✅ |
+| `mahogany-saplings.jpg` | Mahogany "then" photo — row of tiny mahoganies (Nēnē nearby) | ✅ |
 | `paola-young-tree.jpg` | Canopy forest & tree park | ✅ |
 | `rainbow-bungalows.jpg` | Closing "Inspire You" (low-res original, 480×640) | ✅ |
-| `mahogany.jpg` | Mahogany story — tall trees with a person for scale | Wanted |
+| `cacao-understory.jpg` | Understory — cacao beneath the mahoganies, without net covers | Coming from Mau |
 
 ---
 

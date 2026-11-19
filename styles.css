@@ -1607,10 +1607,6 @@ a.land-map-key:hover {
   object-fit: cover;
 }
 
-.forest-zone-image--tall img {
-  aspect-ratio: 4/5;
-}
-
 .species-title {
   font-family: var(--font-body);
   font-size: 0.8rem;
@@ -1752,6 +1748,39 @@ a.land-map-key:hover {
   border-right: 0;
 }
 
+.mahogany-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.mahogany-photo {
+  margin: 0;
+}
+
+.mahogany-photo img {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: center 45%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-medium);
+}
+
+.mahogany-photo--now img {
+  object-position: 72% center;
+}
+
+.mahogany-photo figcaption {
+  margin-top: var(--space-xs);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
 .forest-teaser-stat .mahogany-growth {
   gap: var(--space-md);
   margin-bottom: 0;
@@ -1793,6 +1822,10 @@ a.land-map-key:hover {
 
 .understory-card p {
   color: var(--color-text-muted);
+}
+
+.understory-card p + p {
+  margin-top: var(--space-sm);
 }
 
 .forest-timeline-section {
@@ -2050,6 +2083,10 @@ a.land-map-key:hover {
 
   .mahogany-arrow {
     width: 56px;
+  }
+
+  .mahogany-photos {
+    gap: var(--space-sm);
   }
 
   .land-map-zone {

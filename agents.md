@@ -82,7 +82,7 @@ The land — **20 acres on the Hāmākua Coast, just above Hilo** — was once n
 | Pasture → silvopasture | 8 | Small herd: 3 cows, 3 calves, 1 bull. Plan to integrate trees, forage, and livestock in ~5 years |
 
 - **Mahogany:** planted at ~5 inches; 60+ feet tall five years later — the headline story for visitors.
-- **Understory / agroforestry:** next layer of smaller trees and shrubs; **cacao** is being considered.
+- **Understory / agroforestry:** next layer of smaller trees and shrubs; young **cacao** is already planted beneath the mahoganies, under net covers for its first 2–3 years so rose beetles don't eat it (no poison — 100% organic).
 - **Closing line:** "Inspire YOU is our goal."
 - Mau and Paola have called Hawaiʻi home for **26 years**.
 
